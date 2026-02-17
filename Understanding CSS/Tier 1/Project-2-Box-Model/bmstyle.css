@@ -3,4 +3,19 @@
   padding: 20px;
   border: 5px solid navy;
   margin: 20px;
+
+}
+.box:active{
+  background-color: aquamarine;
+  padding: 30px;
+  border: 20px solid green;
+  margin: 50px;
+
+}
+.box:hover{
+    background-color: rgb(251, 0, 255);
+  padding: 30px;
+  border: 20px solid rgb(139, 143, 30);
+  margin: 50px;
+
 }

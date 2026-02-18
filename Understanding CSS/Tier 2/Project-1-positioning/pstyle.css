@@ -1,7 +1,36 @@
 header {
-  background-color: #333;
-  color: white;
+  background-color: #cf0e0e;
+  color: #fff;
   padding: 1em;
   position: sticky;
   top: 0;
+  left: 0;
+  width: 100px ;
+  z-index: 10;
+}
+header:hover {
+  background-color: #122c96;
+  color: #000000;
+  padding: 1em;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100px ;
+  z-index: -1;
+}
+main{ 
+  margin-top: 10px auto;
+  padding: 10px auto;
+
+}
+
+.par1{
+  top: auto;
+  width: auto;
+  color: #000000;
+  z-index: -1000;
+}
+.par2{
+  background-color: antiquewhite;
+  z-index: -1000;
 }
